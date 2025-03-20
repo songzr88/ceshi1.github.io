@@ -1,11 +1,11 @@
-- First Prize, Xinjiang University Students Information Security Competition (CTF Format), 2022.  
+- Second prize in the 4th National Intelligent Unmanned Boat Search and Rescue Competition  
 
-- Honorable Mention, Mathematical Contest in Modeling (MCM), USA, 2022.  
+- Proof of completion of the FOCUS team winter camp
 
-- First-class Scholarship, Shihezi University, 2022.  
+- "The Road of the First Heart" Revolutionary Culture Return Visiting Group
 
-- Outstanding Graduation Thesis, Shihezi University, 2023.  
+-  Huazhong University of Science and Technology Dragon Boat Team
 
-- Software Copyright, Traceability System for Yilite Liquor Based on Fabric Consortium Blockchain V1.0, 2022.  
+- Energy Conservation and Emission Reduction Competition
 
-- Second Prize, Blockchain Innovation and Application Development Competition, Xinjiang Higher Education Discipline and Skills Competition (Undergraduate Group), 2022.  
+-Runner-up in the Tongxin Cup table tennis competition 
