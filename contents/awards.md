@@ -8,4 +8,4 @@
 
 - Energy Conservation and Emission Reduction Competition
 
--Runner-up in the Tongxin Cup table tennis competition 
+- Runner-up in the Tongxin Cup table tennis competition 
