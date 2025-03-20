@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript 演示</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+            transition: background-color 0.5s ease;
+        }
+        
+        .dialog {
+            position: relative;
+            background: rgba(255, 255, 255, 0.9);
+            backdrop-filter: blur(10px);
+            border-radius: 15px;
+            padding: 20px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            max-width: 600px;
+         
+            transform: scale(0);
+            transition: transform 0.3s ease;
+            z-index: 100;
+        }
+        
+        .dialog.show {
+            transform: scale(1);
+        }
+        
+        h2 {
+            margin: 0;
+            font-size: 24px;
+            color: #333;
+        }
+        
+        p {
+            margin: 15px 0 0;
+            font-size: 16px;
+            color: #666;
+        }
+        
+        #time {
+            font-size: 24px;
+            margin: 20px 0;
+            padding: 10px;
+            border: 1px solid #ccc;
+            display: none;
+        }
+        
+        .controls {
+            display: flex;
+            gap: 10px;
+        }
+        
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            background-color: #ffffff;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        
+        button:hover {
+            background-color: #f0f0f0;
+        }
+    </style>
+</head>
+<body>
+    <div class="dialog" id="welcomeDialog">
+        <h2>           您好            </h2>
+        <p>          这里是js          </p>
+        <button onclick="closeDialog()">关闭</button>
+    </div>
+    
+    <div id="time"></div>
+    
+    <div class="controls">
+        <button onclick="changeBackgroundColor()">改变背景色</button>
+    </div>
+    
+    <script>
+        // 关闭对话框并显示时间
+        function closeDialog() {
+            document.getElementById('welcomeDialog').style.display = 'none';
+            document.getElementById('time').style.display = 'block';
+            showCurrentTime();
+        }
+        
+        // 改变背景色
+        function changeBackgroundColor() {
+            let colors = ['#ff0000', '#00ff00', '#0000ff', '#ffff00', '#ff00ff', '#00ffff', '#ffffff'];
+            let randomColor = colors[Math.floor(Math.random() * colors.length)];
+            document.body.style.backgroundColor = randomColor;
+        }
+        
+        // 实时显示当前时间
+        function showCurrentTime() {
+            let now = new Date();
+            let timeString = now.toLocaleString();
+            document.getElementById('time').textContent = "当前时间: " + timeString;
+        }
+        
+        // 页面加载时启动实时时间显示
+        window.onload = function() {
+            document.getElementById('welcomeDialog').classList.add('show');
+            
+            // 每秒更新一次时间
+            setInterval(showCurrentTime, 1000);
+        };
+    </script>
+</body>
+</html>
