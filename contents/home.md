@@ -1,8 +1,8 @@
 
 
-[![Yixin0313](https://img.shields.io/badge/Yixin0313-github-blue?logo=github)](https://github.com/Yixin0313)
+[![songzr88](https://img.shields.io/badge/songzr88-github-blue?logo=github)](https://github.com/songzr88)
 
-M.Sc. in Computer Science, Uppsala University, Sweden. 
+Major in marine engineering at Huazhong University of Science and Technology
 
 #### Email
 <code>3869816922@qq.com</code>  
