@@ -5,19 +5,14 @@
 M.Sc. in Computer Science, Uppsala University, Sweden. 
 
 #### Email
-<code>yixin.huang.0067@student.uu.se</code>  
-<code>HYX20018888@outlook.com</code>
+<code>3869816922@qq.com</code>  
+<code>u202412879@hust.edu.cn</code>
 
 #### Education
-**Uppsala University**, Master of Computer Science (Aug 2023 – Jun 2025)  
-• GPA: 4.0/5.0  
+**Huazhong University of Science and Technology**, Undergraduate students 
 
-**Xidian University**, Exchange student <br>
-• As a sophomore, represented my college as an outstanding student for a one-year exchange program.  
 
-**Shihezi University**, Honours Bachelor of Data Science and Big Data Technology (Sept 2019 – Jun 2023)  
-• GPA: 86/100 (top 1%)  
 
 #### Research Interests
-Deep Learning, Artificial Intelligence, LLMs(Large Language Models), Blockchain.
+Algorithm, electronic control, microcontroller, mobile phone system
 
